@@ -1,0 +1,8 @@
+********************************************************************************************************
+March 14
+1. position still uses "astype", so for small floating number describing 2D points, large error would be
+caused.
+2. be aware the extrinsic matrix first rotates the WC to be parallel to CC, next do transition. 
+
+March 17
+1. method2: from photo to world + integration
